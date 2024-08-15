@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col mt-3">
+          <div class="alert alert-primary mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, reiciendis.
+            <button class="close" data-dismiss="alert">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="alert alert-info mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, reiciendis.
+          </div>
+          <div class="alert alert-danger mt-2">
+            Lorem ipsum dolor sit amet, <a href="" class="alert-link">The morning star </a>Facilis, reiciendis.
+          </div>
+          <div class="alert alert-warning mt-2" id="closer">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque distinctio magnam vitae sint est corrupti amet voluptatibus temporibus odit aliquam asperiores, nesciunt eveniet officiis facilis quo quam voluptates qui quos reiciendis expedita nemo nulla quia ab. Ea mollitia nostrum odio sequi provident eius commodi similique ipsa beatae adipisci aliquid placeat tempore ratione distinctio molestias impedit cum, aperiam praesentium? Ipsum illo velit, corporis dignissimos reiciendis magnam soluta quos veniam quisquam? Ipsum laborum libero repudiandae consequatur natus labore quod voluptate, id, tenetur corrupti sequi rerum optio corporis debitis at eum totam dolor voluptatibus, inventore dolore doloribus doloremque. Dicta ea adipisci praesentium nihil aliquid fuga quod deserunt doloremque dolor earum dolores asperiores minus, tempora perferendis vel mollitia, quibusdam voluptatum officiis enim tempore nobis quia, maiores minima et? Voluptate incidunt adipisci repellendus doloribus dolorum porro voluptatum inventore mollitia consequuntur quae repellat, sequi minima, earum sapiente facere, totam rem. Reprehenderit provident aperiam nesciunt porro. Enim, fuga ex facere distinctio, quos eaque ab itaque ut iusto quibusdam fugiat iste. Atque sit quae, quisquam tempore modi ab, enim amet corporis exercitationem, veritatis natus inventore voluptatibus aut laboriosam nostrum aperiam minus autem molestias nobis rerum. Porro aliquid quae, magni voluptas tempora aliquam. Quidem eum saepe modi tempora porro.
+          </div>
+          <button class="btn btn-danger" id="closebtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  $(function(){
+    $('#closebtn').click(function(){
+      $('#closer').alert('close');
+    })
+  })
+</script>
+</body>
+</html>
